@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <Nav 
-       logo={"HAKUNA"} 
+      //  logo={"Logo"} 
        btnText={"Sign Up"}
        />
     </>

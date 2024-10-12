@@ -1,10 +1,10 @@
 import React from 'react'
 import './style.scss'
 
-const Nav = (props) => {
+const Nav = ({logo = 'Ruslan' ,...props}) => {
   return (
     <header>
-      <h1>{props.logo}</h1>
+      <h1>{logo}</h1>
       <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
